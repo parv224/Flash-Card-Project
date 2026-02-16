@@ -42,33 +42,23 @@ Install required library:
 
 ```bash
 pip install pandas
-How It Works
-The app loads vocabulary from french_words.csv
+```
 
-When a user marks a word as known, it is removed from the learning list
+# How It Works
 
-Remaining words are saved in words_to_learn.csv
+-The app loads vocabulary from french_words.csv
+-When a user marks a word as known, it is removed from the learning list
+-Remaining words are saved in words_to_learn.csv
+-On the next run, the app continues from where the user left off
 
-On the next run, the app continues from where the user left off
+# Technologies Used
 
-Technologies Used
-Python
+-Python
+-Tkinter (GUI)
+-Pandas (Data handling)
+-CSV storage for persistence
 
-Tkinter (GUI)
 
-Pandas (Data handling)
-
-CSV storage for persistence
-
-Future Improvements
-Add pronunciation audio
-
-Add multiple language support
-
-Add progress statistics dashboard
-
-Dark mode UI
-
-Author
+# Author
 Parv Prajapati
 Computer Engineering Student | Python Developer
