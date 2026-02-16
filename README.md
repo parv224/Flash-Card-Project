@@ -1,4 +1,4 @@
-# Flash Card Learning App (Tkinter + Python)
+# Flash Card Project (Tkinter + Python)
 
 A simple **Flash Card Learning Application** built using **Python (Tkinter, Pandas)** to help users memorize vocabulary efficiently.  
 The app displays a French word, waits for a few seconds, then flips the card to show the English meaning. Users can mark words as **known** or **unknown**, and the app automatically tracks learning progress.
